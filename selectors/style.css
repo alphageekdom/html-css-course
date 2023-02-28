@@ -1,0 +1,66 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Merriweather, sans-serif;
+}
+
+p {
+  color: purple;
+}
+
+.tag {
+  color: orange;
+}
+
+#featured {
+  color: gold;
+}
+
+input[type='number'] {
+  background-color: aqua;
+}
+
+/* Attributes that contain */
+a[href*='wiki'] {
+  color: cyan;
+}
+
+/* Attributes that start with */
+a[href^='#'] {
+  color: darkviolet;
+}
+
+/* Attributes that end with */
+/* a[href$='.org'] {
+  color: red;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.score,
+.tag {
+  color: white;
+  background-color: orangered;
+}
+
+#cast span {
+  color: gray;
+}
+
+ol > li {
+  border: 1px solid red;
+}
+
+h2.score {
+  color: blueviolet;
+}
