@@ -1,0 +1,41 @@
+body {
+  background-color: #463d36;
+  color: #463d36;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: white;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.container h2 {
+  color: #a6192e;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 28px;
+}
+
+.container h1 {
+  margin-top: 0;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.container p {
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.container button {
+  background-color: #463d36;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 30px 40px;
+}
