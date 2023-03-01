@@ -1,102 +1,10 @@
-/* * {
-  margin: 0;
-  padding: 0;
+/* p::first-line {
+  color: blue;
+  text-transform: uppercase;
 } */
 
-body {
-  font-family: Merriweather, sans-serif;
-}
-
-/* p {
-  color: purple;
-}
-
-.tag {
-  color: orange;
-}
-
-#featured {
-  color: gold;
-}
-
-input[type='number'] {
-  background-color: aqua;
+/* p:first-of-type::first-letter {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 200%;
 } */
-
-/* Attributes that contain */
-/* a[href*='wiki'] {
-  color: cyan;
-} */
-
-/* Attributes that start with */
-/* a[href^='#'] {
-  color: darkviolet;
-} */
-
-/* Attributes that end with */
-/* a[href$='.org'] {
-  color: red;
-} */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Work Sans', sans-serif;
-}
-
-/* .score,
-.tag {
-  color: white;
-  background-color: orangered;
-} */
-
-/* #cast span {
-  color: gray;
-}
-
-ol > li {
-  border: 1px solid red;
-}
-
-h2.score {
-  color: blueviolet;
-}  */
-
-/* h2 + p {
-  color: deeppink;
-} */
-
-h2:hover {
-  color: orange;
-}
-
-input:placeholder-shown {
-  background-color: red;
-}
-
-a:visited {
-  color: aqua;
-}
-
-/* li:last-of-type {
-  border: 1px solid magenta;
-} */
-
-li:nth-of-type(2) {
-  border: 1px solid magenta;
-}
-
-button:active {
-  background-color: pink;
-}
-
-input:focus {
-  border: 5px solid green;
-}
-
-:not(h1, h2, h3, h4, h5, h6) {
-  border: 1px solid yellowgreen;
-}
