@@ -1,9 +1,7 @@
-.special {
-  color: olive;
+#heading {
+  color: purple;
 }
-/* 0 1 0 */
 
-p:nth-of-type(2) {
-  color: orangered;
+h1 {
+  color: olive !important;
 }
-/* 0 1 1 */
