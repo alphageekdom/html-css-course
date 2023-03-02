@@ -1,11 +1,9 @@
-p {
+.special {
   color: olive;
 }
+/* 0 1 0 */
 
-.featured {
+p:nth-of-type(2) {
   color: orangered;
 }
-
-#special {
-  color: magenta;
-}
+/* 0 1 1 */
