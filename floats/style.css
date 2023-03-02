@@ -1,0 +1,13 @@
+p {
+  font-size: 30px;
+}
+
+img {
+  width: 400px;
+  float: left;
+}
+
+.container {
+  width: 1000px;
+  border: 2px solid red;
+}
