@@ -14,7 +14,7 @@ p {
   font-size: 40px;
   line-height: 200%;
 } */
-
+/* 
 h1 {
   font-size: 6rem;
 }
@@ -37,4 +37,22 @@ p {
 
 .pixels p {
   font-size: 32px;
+} */
+
+.container {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+  margin-left: 1em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.small {
+  font-size: 0.7em;
 }
