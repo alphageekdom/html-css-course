@@ -3,12 +3,14 @@ p {
   background-color: magenta;
   margin: 30px;
   font-size: 2rem;
-  position: static;
+  position: relative;
+  z-index: 2;
 }
 
 #special {
   position: relative;
   background-color: yellow;
-  top: 40px;
+  top: 200px;
   left: 40px;
+  z-index: 1;
 }
