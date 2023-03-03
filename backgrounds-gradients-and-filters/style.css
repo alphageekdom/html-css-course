@@ -52,9 +52,16 @@
   background-image: conic-gradient(cyan, yellow, magenta, cyan);
 } */
 
-.box {
+/* .box {
   border: 2px solid black;
   height: 400px;
   width: 400px;
   background-image: repeating-linear-gradient(45deg, cyan, yellow 30%);
+} */
+
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  background: url('images/peacock.png') no-repeat center/100%;
 }
