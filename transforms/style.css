@@ -1,0 +1,22 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: olive;
+  display: inline-block;
+}
+
+.first {
+  background-color: orangered;
+  transform-origin: top right;
+  transform: rotate(45deg);
+  /* transform: scale(2, 4); */
+  /* transform: rotate(45deg); */
+  /* transform: translate(100px, 200px); */
+}
+
+h1 {
+  /* transform: scaleX(2); */
+  transform: rotate(20deg) scale(3);
+  display: inline-block;
+  border: 1px solid black;
+}
