@@ -1,5 +1,5 @@
 body {
-  font-family: Cormorant, serif;
+  font-family: 'Cormorant', serif;
 }
 
 h1 {
@@ -87,4 +87,26 @@ a.active {
   display: inline-block;
   padding-bottom: 8px;
   margin-top: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    width: 100%;
+  }
+  .about {
+    margin: 100px 0 100px 100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    padding: 0;
+  }
+  .gallery {
+    padding: 8px;
+  }
+  .about {
+    margin: 100px auto;
+    min-width: 450px;
+  }
 }
