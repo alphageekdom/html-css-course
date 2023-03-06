@@ -40,10 +40,6 @@ body {
   height: 24px;
 }
 
-.navbar .hamburger {
-  display: none;
-}
-
 .bar1,
 .bar2,
 .bar3 {
@@ -52,6 +48,40 @@ body {
   width: 36px;
   margin: 3px;
   border-radius: 10px;
+}
+
+.navbar .hamburger {
+  display: none;
+}
+
+.mobile-nav {
+  width: 80px;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  padding: 16px;
+}
+
+.mobile-nav img {
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: black;
+  margin: 16px 0;
+}
+
+.mobile-nav a:hover {
+  text-decoration: underline;
 }
 
 .project-grid {
