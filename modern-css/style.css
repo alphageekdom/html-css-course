@@ -1,0 +1,7 @@
+.box1 {
+  background-color: tomato;
+  height: 300px;
+  width: calc(50% - 100px);
+  float: left;
+  margin-right: 20px;
+}
