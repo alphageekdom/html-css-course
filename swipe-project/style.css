@@ -405,18 +405,21 @@ p {
 #credit-card {
   grid-area: card;
   width: 100%;
+  border-radius: 20px;
   box-shadow: var(--standard-box-shadow);
 }
 
 #slack-invoice {
   grid-area: slack;
   width: 100%;
+  border-radius: 20px;
   box-shadow: var(--standard-box-shadow);
 }
 
 #phone {
   grid-area: phone;
   width: 100%;
+  border-radius: 60px;
   box-shadow: var(--standard-box-shadow);
 }
 
