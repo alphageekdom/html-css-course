@@ -894,6 +894,9 @@ p {
   }
 
   /* WHY SWIPE SECTION */
+  .why-swipe-section {
+    padding: var(--spacing-md) 0 var(--spacing-xl) 0;
+  }
   .why-swipe-section .card-container {
     flex-wrap: wrap;
   }
@@ -933,7 +936,7 @@ p {
   /* GENERAL STYLES */
   :root {
     --h1-size: 58px;
-    --h1-height: 60px;
+    --h1-height: 65px;
     --h3-size: 34px;
     --h6-size: 16px;
   }
@@ -968,12 +971,27 @@ p {
     grid-template-columns: 1fr 1fr;
   }
 
+  /* UNIFIED PLATFORM SECTION */
+  .unified-platform-section {
+    padding: var(--spacing-md) 0;
+  }
+
   /* INTEGRATION SECTION */
+  .integrations-section {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .integrations-section::before {
+    height: 900px;
+  }
   .integrations-section .col-right {
     display: none;
   }
 
   /* WHY SWIPE SECTION */
+  .why-swipe-section {
+    padding: var(--spacing-xl) 0 var(--spacing-md) 0;
+  }
   .why-swipe-section .card-container .card {
     width: 100%;
     margin: var(--spacing-sm) 0;
@@ -983,6 +1001,12 @@ p {
   }
 
   /* GLOBAL SECTION */
+  .global-section {
+    padding: var(--spacing-xl) 0 0 0;
+  }
+  .global-section .card-container {
+    margin: var(--spacing-md) 0;
+  }
   .global-section .card-container .card {
     width: 100%;
     margin: var(--spacing-sm) 0;
@@ -992,6 +1016,9 @@ p {
   }
 
   /* VIRTUAL EVENTS SECTION */
+  .virtual-events-section {
+    padding: 0;
+  }
   .virtual-events-section .swipe-sessions-card {
     width: 100%;
     margin: var(--spacing-lg) 0;
@@ -1008,6 +1035,9 @@ p {
   }
 
   /* GETTING STARTED SECTION */
+  .getting-started-section {
+    padding: var(--spacing-md) 0;
+  }
   /* FOOTER SECTION */
   .footer .section-container {
     flex-wrap: wrap;
